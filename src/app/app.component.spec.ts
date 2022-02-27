@@ -24,6 +24,9 @@ describe( 'AppComponent', () => {
   it('adds 1 + 2 to equal 3', () => {
    expect (fixture.componentInstance.sum(1, 2)).toBe(3);
   })
+  it('substrac 3 - 2 to equal 1', () => {
+    expect (fixture.componentInstance.rest(3, 2)).toBe(1);
+   })
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
