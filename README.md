@@ -35,8 +35,8 @@ Run on root folder:
         "src/**/*.d.ts"
       ]
     }
-    ```
-
+  ```
+  
 ## Step 8: 
  - Update/Uncoment jest.config.js file with the following content:
   ```json
